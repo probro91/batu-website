@@ -48,7 +48,7 @@ export default function Page() {
               target="_blank"
               className="text-blue-500 hover:underline"
             >
-              Macy's
+             {"Macy's"}
             </a>
             {" where I worked on applications for Macy’s contact center. Outside of school, I love playing guitar, hiking, and spending time with my family. Please check out my resume and feel free to reach out to me through LinkedIn or email!"}
           </p>
