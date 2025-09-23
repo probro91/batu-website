@@ -5,22 +5,22 @@ import { JSX, SVGProps } from "react"
 
 export default function Component() {
   return (
-    <div className="flex justify-evenly">
-      <Link className="flex flex-col items-center gap-4 p-6 transition-all hover:scale-110" href="https://www.linkedin.com/in/alibatuozdener/" target="_blank">
+    <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-evenly gap-6 sm:gap-8 md:gap-0 w-full">
+      <Link className="flex flex-col items-center gap-3 md:gap-4 p-4 sm:p-6 transition-all hover:scale-110" href="https://www.linkedin.com/in/alibatuozdener/" target="_blank">
         <LinkedinIcon className="h-12 w-12" />
-        <span className="text-lg font-medium">LinkedIn</span>
+        <span className="text-base sm:text-lg font-medium">LinkedIn</span>
       </Link>
-      <Link className="flex flex-col items-center gap-4 p-6 transition-all hover:scale-110" href="https://github.com/probro91" target="_blank">
+      <Link className="flex flex-col items-center gap-3 md:gap-4 p-4 sm:p-6 transition-all hover:scale-110" href="https://github.com/probro91" target="_blank">
         <GithubIcon className="h-12 w-12" />
-        <span className="text-lg font-medium">GitHub</span>
+        <span className="text-base sm:text-lg font-medium">GitHub</span>
       </Link>
-      <Link className="flex flex-col items-center gap-4 p-6 transition-all hover:scale-110" href="https://docs.google.com/document/d/1Lxhlhxgq77n9XB8XfWTphNbaL0u6JAioV4HlZ5MA8eA/edit?usp=sharing" target="_blank">
+      <Link className="flex flex-col items-center gap-3 md:gap-4 p-4 sm:p-6 transition-all hover:scale-110" href="https://docs.google.com/document/d/1Lxhlhxgq77n9XB8XfWTphNbaL0u6JAioV4HlZ5MA8eA/edit?usp=sharing" target="_blank">
         <FileIcon className="h-12 w-12" />
-        <span className="text-lg font-medium">Resume</span>
+        <span className="text-base sm:text-lg font-medium">Resume</span>
       </Link>
-      <Link className="flex flex-col items-center gap-4 p-6 transition-all hover:scale-110" href="mailTo:bozdener@gmail.com" target="_blank">
+      <Link className="flex flex-col items-center gap-3 md:gap-4 p-4 sm:p-6 transition-all hover:scale-110" href="mailTo:bozdener@gmail.com" target="_blank">
         <MailIcon className="h-12 w-12" />
-        <span className="text-lg font-medium">Email</span>
+        <span className="text-base sm:text-lg font-medium">Email</span>
       </Link>
     </div>
   )
