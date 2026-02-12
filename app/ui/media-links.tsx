@@ -18,10 +18,6 @@ export default function Component() {
         <FileIcon className="h-12 w-12" />
         <span className="text-base sm:text-lg font-medium">Resume</span>
       </Link>
-      <Link className="flex flex-col items-center gap-3 md:gap-4 p-4 sm:p-6 transition-all hover:scale-110" href="mailTo:bozdener@gmail.com" target="_blank">
-        <MailIcon className="h-12 w-12" />
-        <span className="text-base sm:text-lg font-medium">Email</span>
-      </Link>
     </div>
   )
 }
